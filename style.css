@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* テキストボックスのスタイル */
+  input[type="text"], textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* ボタンのスタイル */
+  button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* チャットメッセージ表示エリアのスタイル */
+  #output {
+    margin-top: 20px;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    background-color: #fff;
+  }
+  
+  /* チャットメッセージのスタイル */
+  #output div {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #output p {
+    margin: 5px 0;
+  }
+  
